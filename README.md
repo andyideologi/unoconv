@@ -1,6 +1,5 @@
 
-
-=================================================== UNOCONV - Universal Office Conversion ======================
+UNOCONV - Universal Office Conversion ======================
 
 Credit goes to : Dag Wieers ( https://github.com/dagwieers )
 ================================================================================================================
