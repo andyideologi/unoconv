@@ -99,7 +99,7 @@ Step 1) Install libreoffice 4.2.5.2 through command line :
      - Extract tar file.
      Execute command 'sudo tar zxvf LibreOffice_4.2.5.2_Linux_x86-64_deb.tar.gz'
      - Go to DEBS folder
-     Execute command 'cd DEBS'
+     Execute command 'cd LibreOffice_4.2.5.2_Linux_x86-64_deb' ,cd DEBS
      - Install all debian file packages.
      Execute command 'sudo dpkg -i *.deb'
 
