@@ -20,6 +20,11 @@ ini_set('max_execution_time', '-1');
 // print_r($result_var);//die;
 // print_r($output);//die;
 
+$HOME = '/home/bitnami'; 
+/* $HOME :this is the root directory path which you can get through env array.
+if you are using terminal then enter command 'echo $HOME' and enter. You will get home directory path */
+putenv('PATH=/opt/bitnami/frameworks/laravel/app/Console:/opt/bitnami/frameworks/cakephp/bin:/opt/bitnami/frameworks/codeigniter/bin:/opt/bitnami/frameworks/symfony/bin:/opt/bitnami/frameworks/zendframework/app/Console:/opt/bitnami/git/bin:/opt/bitnami/varnish/bin:/opt/bitnami/sqlite/bin:/opt/bitnami/php/bin:/opt/bitnami/mysql/bin:/opt/bitnami/apache2/bin:/opt/bitnami/common/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games');
+/* You can get PATH using 'echo $PATH' on terminal. You have to put all paths to PATH variable using putenv */
 
 shell_exec("/usr/bin/unoconv -f pdf test.doc");
 
