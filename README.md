@@ -115,7 +115,15 @@ Step 3) follow step 3 in example 1.
 
 You are done.
 
-
+  Issues that you may face and some possible solutions are given below:
+  
+  1) Fontconfig warning: ignoring UTF-8: not a valid region tag :
+  => https://github.com/ariya/phantomjs/issues/13433#issuecomment-275624549
+  
+  2) Error: Unable to connect or start own listener. Aborting :
+  => http://askubuntu.com/questions/561851/unoconv-cannot-connect-or-start-listener-without-sudo#answer-640231
+  
+  
   Please suggest any change. These 2 examples are working fine for me.
              
 
